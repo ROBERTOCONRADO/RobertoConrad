@@ -473,7 +473,7 @@ img{
     margin-left: 12px;
   }
   .home__data{
-    z-index: 900;
+    z-index: 1;
   }
-  
 }
+
