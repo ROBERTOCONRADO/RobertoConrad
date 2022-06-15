@@ -465,7 +465,7 @@ img{
 @media screen and (max-width: 566px){
   .home__img img {
     background-image: url(./img/euchar_c9f5bc.jpg);
-    height: 460px;
+    height: 500px;
     opacity: 0.8;
     background-repeat: no-repeat;
     position: relative;
