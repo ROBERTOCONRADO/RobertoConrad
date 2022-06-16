@@ -249,6 +249,9 @@ img{
   width: 200px;
   border-radius: .5rem;
 }
+mark {
+  background-color: #D3346F;
+}
 
 /* ===== SKILLS =====*/
 .skills__container{
@@ -290,26 +293,35 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
+.skills__js{
+  width: 16%;
+}
+.skills__react {
+  width: 7%;
+}
 .skills__html{
-  width: 95%;
+  width: 94%;
 }
 .skills__css{
-  width: 85%;
+  width: 86%;
 }
-.skills__js{
-  width: 65%;
+.skills__sql {
+  width: 4%;
 }
-.skills__Git{
-  width: 85%;
+.skills__node {
+  width: 6%;
+}
+.skills__gits {
+  width: 82%;
+}
+.skills__comunication {
+  width: 87%;
+}
+.skills__creativity {
+  width: 93%;
 }
 .skills__Boots {
-  width: 65%;
-}
-.skills__jQuery {
-  width: 5%;
-}
-.skills__PHP {
-  width: 5%;
+  width: 64%;
 }
 .skills__img{
   border-radius: .5rem;
