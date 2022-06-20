@@ -57,7 +57,10 @@ sr.reveal('.work__img',{interval: 200});
 sr.reveal('.contact__input',{interval: 200});
 
 
-$(".skills__bar").mouseenter(() => {
-    console.log("mouseenter");
+$(".skills__bar").mousemove(() => {
+    $(".skills__bar").animate({ width: 284 }, 3000);
 })
 
+$(".skills__bar").mouseout(() => {
+    $(".skills__bar").animate({ width: 1 }, 3000);
+})

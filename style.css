@@ -251,6 +251,7 @@ img{
 }
 mark {
   background-color: #D3346F;
+  font-weight: bolder;
 }
 
 /* ===== SKILLS =====*/
@@ -446,7 +447,7 @@ mark {
     text-align: initial;
   }
   .about__img img{
-    width: 300px;
+    width: 400px;
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
@@ -486,6 +487,9 @@ mark {
   }
   .home__data{
     z-index: 1;
+  }
+  .about__img img{
+    width: 400px;
   }
 }
 
