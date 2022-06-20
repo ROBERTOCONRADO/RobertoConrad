@@ -54,5 +54,10 @@ sr.reveal('.skills__img',{delay: 600});
 sr.reveal('.work__img',{interval: 200}); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input',{interval: 200}); 
+sr.reveal('.contact__input',{interval: 200});
+
+
+$(".skills__bar").mouseenter(() => {
+    console.log("mouseenter");
+})
 

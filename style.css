@@ -311,11 +311,11 @@ mark {
 .skills__node {
   width: 6%;
 }
+.skills__jQuery {
+  width: 27%;
+}
 .skills__gits {
   width: 82%;
-}
-.skills__comunication {
-  width: 87%;
 }
 .skills__creativity {
   width: 93%;
