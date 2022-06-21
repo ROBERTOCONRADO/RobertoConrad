@@ -59,7 +59,14 @@ sr.reveal('.contact__input',{interval: 200});
 
 $(".skills__bar").mousemove(() => {
     $(".skills__bar").slideUp(1000).slideDown(1000);
-})
+});
+
+
+$(document).ready(function() {
+    $(".footer__title").mouseenter(function() {
+        alert("Please wait...");
+    });
+});
 
 
 
