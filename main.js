@@ -57,23 +57,9 @@ sr.reveal('.work__img',{interval: 200});
 sr.reveal('.contact__input',{interval: 200});
 
 
-$(".skills__js").click(function () {
-    
-    let curr_elem = $(this);
-    let increase_modifier = 1.01;
-    let curr_width = curr_elem.width();
-    curr_elem.width(
-        curr_width * increase_modifier
-    )
-});
+$(".skills__bar").mousemove(() => {
+    $(".skills__bar").slideUp(1000).slideDown(1000);
+})
 
-$(".skills__js").dblclick(function () {
-    let curr_elem = $(this);
-    let increase_modifier = 0.9;
-    let curr_width = curr_elem.width();
-    curr_elem.width(
-        curr_width * increase_modifier
-    )
-});
 
 
