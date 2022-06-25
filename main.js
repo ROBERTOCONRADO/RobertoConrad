@@ -63,8 +63,8 @@ $(".skills__bar").mousemove(() => {
 
 
 $(document).ready(function() {
-    $(".footer__title").mouseenter(function() {
-        alert("Please wait...");
+    $(".contact__input").focus(function() {
+        $(this).css("backgroundColor", "#600000");
     });
 });
 
