@@ -57,16 +57,7 @@ sr.reveal('.work__img',{interval: 200});
 sr.reveal('.contact__input',{interval: 200});
 
 
-$(".skills__bar").mousemove(() => {
-    $(".skills__bar").slideUp(1000).slideDown(1000);
-});
 
-
-$(document).ready(function() {
-    $(".contact__input").focus(function() {
-        $(this).css("backgroundColor", "#600000");
-    });
-});
 
 
 
