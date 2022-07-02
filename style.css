@@ -348,6 +348,21 @@ mark {
   transform: scale(1.1);
 }
 
+/* ===== Workplace =====*/
+.my__work__img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.589);
+  border-radius: .5rem;
+  overflow: hidden;
+  border: 1px solid rgba(250, 128, 114, 0.438);
+}
+
+.my__work__img img {
+  transition: 1s;
+  cursor: pointer;
+}
+.my__work__img img:hover {
+  transform: scale(1.1);
+}
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;

@@ -57,6 +57,9 @@ sr.reveal('.work__img',{interval: 400});
 sr.reveal('.contact__input',{interval: 400});
 
 
+sr.reveal('.my__work__img',{interval: 400});
+
+
 
 
 
