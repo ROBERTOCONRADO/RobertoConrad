@@ -69,6 +69,7 @@ ul{
 a{
   text-decoration: none;
 }
+
 img{
   max-width: 100%;
   height: auto;
@@ -162,6 +163,21 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+/*======animation======*/
+
+@keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 52%;
+    width: 100%;
+  }
 }
 .nav__toggle{
   color: var(--second-color);
@@ -513,4 +529,6 @@ strong {
     width: 400px;
   }
 }
+
+
 
