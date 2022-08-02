@@ -268,6 +268,7 @@ img{
 mark {
   background-color: #D3346F;
   font-weight: bolder;
+  padding: 5px;
 }
 
 /* ===== SKILLS =====*/
@@ -293,7 +294,7 @@ mark {
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 .skills__icon{
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
@@ -314,6 +315,9 @@ mark {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
 }
 .skills__js{
+  width: 36%;
+}
+.skills__php {
   width: 16%;
 }
 .skills__react {
@@ -325,20 +329,17 @@ mark {
 .skills__css{
   width: 86%;
 }
-.skills__sql {
-  width: 4%;
+.skills__MySQL {
+  width: 11%;
 }
 .skills__node {
-  width: 6%;
+  width: 8%;
 }
 .skills__jQuery {
-  width: 27%;
+  width: 29%;
 }
 .skills__gits {
   width: 82%;
-}
-.skills__creativity {
-  width: 93%;
 }
 .skills__Boots {
   width: 64%;
