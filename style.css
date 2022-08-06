@@ -531,5 +531,9 @@ strong {
   }
 }
 
-
-
+.background {
+  z-index: -2;
+  position: absolute;
+  display: block;
+  
+}
