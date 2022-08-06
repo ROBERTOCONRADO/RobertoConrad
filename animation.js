@@ -1,7 +1,7 @@
 window.onload = function() {
     Particles.init({
       selector: '.background',
-      maxParticles: 150,
+      maxParticles: 130,
       sizeVariations: 5,
       speed: 0.5,
       minDistance: 120,
@@ -15,10 +15,7 @@ window.onload = function() {
             ,
             options: {
                 maxParticles: 
-                    120
-                ,
-                color: 
-                    'rgb(97, 0, 0);'
+                    50
                 ,
                 connectParticles: 
                     true
@@ -29,10 +26,11 @@ window.onload = function() {
             ,
             options: {
                 maxParticles: 
-                    100
+                    40
             ,
             connectParticles: 
                 true
+            ,    
         }
     }, {
         breakpoint: 
@@ -40,10 +38,13 @@ window.onload = function() {
         ,
         options: {
             maxParticles: 
-                60
+                10
             ,
             connectParticles:
-                true    
+                true
+            ,    
+            minDistance:
+                280            
  
         // disables particles.js
       }
