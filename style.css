@@ -84,7 +84,7 @@ img{
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
-}
+}  
 .section-title::after{
   position: absolute;
   content: "";
