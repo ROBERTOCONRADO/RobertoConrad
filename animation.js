@@ -1,7 +1,7 @@
 window.onload = function() {
     Particles.init({
       selector: '.background',
-      maxParticles: 130,
+      maxParticles: 110,
       sizeVariations: 5,
       speed: 0.5,
       minDistance: 120,
@@ -51,5 +51,6 @@ window.onload = function() {
     }
   ]
 });
-    
 }
+
+
