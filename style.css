@@ -420,6 +420,10 @@ mark {
   color: #fff;
   margin: 0 var(--mb-2)
 }
+.footer__icon:hover{
+  color: var(--first-color);
+  
+}
 strong {
   color:silver;
 }
