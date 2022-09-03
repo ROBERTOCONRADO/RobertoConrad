@@ -315,34 +315,34 @@ mark {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
 }
 .skills__js{
-  width: 36%;
+  width: 100%;
 }
 .skills__php {
-  width: 16%;
+  width: 100%;
 }
 .skills__react {
-  width: 7%;
+  width: 100%;
 }
 .skills__html{
-  width: 94%;
+  width: 100%;
 }
 .skills__css{
-  width: 86%;
+  width: 100%;
 }
 .skills__MySQL {
-  width: 11%;
+  width: 100%;
 }
 .skills__node {
-  width: 8%;
+  width: 100%;
 }
 .skills__jQuery {
-  width: 29%;
+  width: 100%;
 }
 .skills__gits {
-  width: 82%;
+  width: 100%;
 }
 .skills__Boots {
-  width: 64%;
+  width: 100%;
 }
 .skills__img{
   border-radius: .5rem;
