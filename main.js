@@ -59,8 +59,6 @@ sr.reveal('.my__work__img',{interval: 400});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 400});
 
-sr.reveal('.skills__img',{interval: 400});
-
 let Roberto = document.querySelector('.nav__logo').style.animation = 'slidein 2s';
 
 

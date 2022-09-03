@@ -113,33 +113,78 @@
   }
 
 /*Animation Skills*/
-.animation-skills {
-	-webkit-animation: animations-skills 0.8s infinite alternativo-reverso ;
-	    animation: animations-skills 0.8s infinite alternativo-reverso ;
+.skill-bar-animate {
+	-webkit-animation: skill-bar-animate 2.9s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
+	animation: skill-bar-animate 2.9s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
 }
 
-@-webkit-keyframes animation-skills {
+@-webkit-keyframes skill-bar-animate {
     0% {
-        -webkit-transform: translateZ(-1400px) translateX(-1000px);
-        transform: translateZ(-1400px) translateX(-1000px);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
         opacity: 0;
     }
     100% {
-      -webkit-transform: translateZ(0) translateX(0);
-              transform: translateZ(0) translateX(0);
-      opacity: 1;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+        opacity: 0;
     }
   }
-  @keyframes animation-skills {
+  @keyframes skill-bar-animate {
     0% {
-      -webkit-transform: translateZ(-1400px) translateX(-1000px);
-              transform: translateZ(-1400px) translateX(-1000px);
-      opacity: 0;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        opacity: 0.5;
     }
     100% {
-      -webkit-transform: translateZ(0) translateX(0);
-              transform: translateZ(0) translateX(0);
-      opacity: 1;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 0% 100%;
+        opacity: 1;
     }
   }
 
+  .skill-animate {
+	-webkit-animation: skill-animate 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
+	animation: skill-animate 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
+}
+
+@-webkit-keyframes skill-animate {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+        opacity: 1;
+    }
+  }
+  @keyframes skill-animate {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 0% 100%;
+        opacity: 1;
+    }
+  }
