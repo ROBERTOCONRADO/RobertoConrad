@@ -540,3 +540,10 @@ strong {
   position: absolute;
   display: block;
 }
+
+@media (min-width: 667px) {
+  .meuCurriculo {
+    height: 500px;
+    width: 650px;
+  }
+}
