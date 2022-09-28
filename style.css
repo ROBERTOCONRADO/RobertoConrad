@@ -312,7 +312,8 @@ mark {
   z-index: var(--z-back);
 }
 .skills__img {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.279);
+  filter: invert(var(--value, 100%)); --value:5%;
 }
 .skills__js{
   width: 100%;

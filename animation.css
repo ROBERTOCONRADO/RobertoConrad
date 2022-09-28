@@ -1,6 +1,6 @@
 /*Name*/
 .roberto{animation:roberto 6s linear infinite alternate both}
-@keyframes roberto{0%{color:#690000}33.3333%{color:#3a0000}56.666%{color:#ea2222}100%{color:#f5be10}}
+@keyframes roberto{0%{color:#690000}33.3333%{color:#3a0000}56.666%{color:#ea2222}100%{color:#E67675;}}
 
 /*Animation Skills*/
 .skill-bar-animate {
