@@ -556,3 +556,26 @@ strong {
 .imgcurriculo {
   height: 1000px;
 }
+/* =====Funcionalidades=====*/
+.funcionalidades_right {
+  display: none;
+}
+.funcionalidades_left {
+  display: none;
+  text-align: end;
+}
+.ul-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.funcionalidades h3 {
+  margin: 0 0;
+}
+.funcionalidades p {
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+.funcionalidades .primeiro {
+  float: left;
+}
+  
