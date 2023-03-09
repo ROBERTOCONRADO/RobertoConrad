@@ -10,7 +10,9 @@ let projeto9 = document.querySelector(".projeto9");
 let projeto10 = document.querySelector(".projeto10");
 let projeto11 = document.querySelector(".projeto11");
 let projeto12 = document.querySelector(".projeto12");
-
+let projeto13 = document.querySelector(".projeto13");
+let projeto14 = document.querySelector(".projeto14");
+// projeto1
 projeto1.addEventListener("mouseover", function() {
   projeto2.style.display = "none";
   document.querySelector(".right1").style.display = "block";
@@ -20,6 +22,7 @@ projeto1.addEventListener("mouseover", function() {
     projeto2.classList.add('opacity');
   })
 });
+// projeto2
 projeto2.addEventListener("mouseover", function() {
   projeto1.style.display = "none";
   document.querySelector(".left1").style.display = "block";
@@ -29,7 +32,7 @@ projeto2.addEventListener("mouseover", function() {
     projeto1.classList.add('opacity');
   })
 });
-
+// . . . 
 projeto3.addEventListener("mouseover", function() {
   projeto4.style.display = "none";
   document.querySelector(".right2").style.display = "block";
@@ -68,7 +71,6 @@ projeto6.addEventListener("mouseover", function() {
   })
 });
 
-
 projeto7.addEventListener("mouseover", function() {
   projeto8.style.display = "none";
   document.querySelector(".right4").style.display = "block";
@@ -87,7 +89,6 @@ projeto8.addEventListener("mouseover", function() {
     projeto7.classList.add('opacity');
   })
 });
-
 
 projeto9.addEventListener("mouseover", function() {
   projeto10.style.display = "none";
@@ -108,7 +109,6 @@ projeto10.addEventListener("mouseover", function() {
   })
 });
 
-
 projeto11.addEventListener("mouseover", function() {
   projeto12.style.display = "none";
   document.querySelector(".right6").style.display = "block";
@@ -125,6 +125,25 @@ projeto12.addEventListener("mouseover", function() {
     document.querySelector(".left6").style.display = "none";
     projeto11.style.display = "block";
     projeto11.classList.add('opacity');
+  })
+});
+
+projeto13.addEventListener("mouseover", function() {
+  projeto14.style.display = "none";
+  document.querySelector(".right7").style.display = "block";
+  projeto13.addEventListener("mouseout", function() {
+    document.querySelector(".right7").style.display = "none";
+    projeto14.style.display = "block";
+    projeto14.classList.add('opacity');
+  })
+});
+projeto14.addEventListener("mouseover", function() {
+  projeto13.style.display = "none";
+  document.querySelector(".left7").style.display = "block";
+  projeto14.addEventListener("mouseout", function() {
+    document.querySelector(".left7").style.display = "none";
+    projeto13.style.display = "block";
+    projeto13.classList.add('opacity');
   })
 });
 
