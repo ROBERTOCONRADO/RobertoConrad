@@ -260,6 +260,9 @@ img{
 .about__subtitle{
   margin-bottom: var(--mb-2);
 }
+.disponibilidade {
+  margin: 0px;
+}
 .about__img{
   justify-self: center;
 }
