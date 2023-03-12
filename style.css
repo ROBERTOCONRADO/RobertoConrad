@@ -356,7 +356,7 @@ mark {
 
 /* ===== WORK =====*/
 .work__container{
-  row-gap: 2rem;
+  row-gap: 2.5rem;
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
@@ -499,7 +499,7 @@ strong {
   .work__container{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1,1fr);
-    column-gap: 2rem;
+    column-gap: 2.5rem;
   }
   .contact__form{
     width: 360px;
