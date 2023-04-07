@@ -409,7 +409,7 @@ mark {
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
+  background-color: #2F2E41;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
