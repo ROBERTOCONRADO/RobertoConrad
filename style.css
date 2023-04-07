@@ -618,3 +618,15 @@ strong {
   animation-name: opacity;
   animation-duration: 1s;
 }
+
+#traducao {
+  margin-left: 5px;
+  border: none;
+  width: 50px;
+  height: 25px;
+  margin-top: 8px;
+  background-image: linear-gradient(to bottom, #009e60 0%, #009e60 33%, #002776 33%, #002776 66%, #ffff00 66%, #ffff00 100%);
+  color: white;
+  cursor: pointer;
+  font-size: .5rem;
+}
