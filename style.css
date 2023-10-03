@@ -271,7 +271,7 @@ img{
   border-radius: .5rem;
 }
 mark {
-  background-color: #D3346F;
+  background-color: rgb(253, 194, 4, 0.7);
   font-weight: bolder;
   padding: 5px;
 }
@@ -625,7 +625,7 @@ strong {
   width: 50px;
   height: 25px;
   margin-top: 8px;
-  background-image: linear-gradient(to bottom, #009e60 0%, #009e60 33%, #002776 33%, #002776 66%, #ffff00 66%, #ffff00 100%);
+  background-image: linear-gradient(to bottom, #009e60 0%, #009e60 33%, #002776 33%, #002776 66%, #FDC204 66%, #ffff00 100%);
   color: white;
   cursor: pointer;
   font-size: .5rem;
