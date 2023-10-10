@@ -294,7 +294,7 @@ mark {
   position: relative;
   font-weight: var(--font-semi);
   padding: .5rem 1rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: 1.3rem;
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
@@ -352,6 +352,15 @@ mark {
 }
 .skills__img{
   border-radius: .5rem;
+}
+
+/* ===== Skills Delay ===== */
+.skills__bar.skill-animate.animated:nth-child(1) {
+  animation: skill-animate 4.5s linear infinite;
+}
+
+.skills__bar.skill-animate.animated:nth-child(2) {
+  animation: skill-animate 4.5s linear infinite;
 }
 
 /* ===== WORK =====*/

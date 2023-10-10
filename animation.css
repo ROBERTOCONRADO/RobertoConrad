@@ -42,9 +42,9 @@
   }
 
   .skill-animate {
-	-webkit-animation: skill-animate 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
-	animation: skill-animate 3.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite;
-}
+    -webkit-animation: skill-animate 6s linear(0.000, 0.000, 0.999, 0.000) infinite;
+    animation: skill-animate 6s linear(0.000, 0.000, 0.999, 0.000) infinite;
+  }
 
 @-webkit-keyframes skill-animate {
     0% {
@@ -75,6 +75,6 @@
         transform: scaleX(1);
         -webkit-transform-origin: 100% 100%;
         transform-origin: 0% 100%;
-        opacity: 1;
+        opacity: .3;
     }
   }

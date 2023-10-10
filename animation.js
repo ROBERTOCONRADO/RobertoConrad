@@ -53,4 +53,13 @@ window.onload = function() {
 });
 }
 
+//Animation Skills Delay
+const skillElements = document.querySelectorAll('.skills__bar.skill-animate');
+const baseDelay = 500; // 0,5 segundos
+skillElements.forEach((element, index) => {
+  const delay = baseDelay * index;
+  element.classList.add('animated');
+  element.style.animationDelay = `${delay}ms`;
+});
+
 
