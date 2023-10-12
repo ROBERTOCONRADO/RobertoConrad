@@ -307,6 +307,10 @@ mark {
   display: flex;
   align-items: center;
 }
+.skills__name {
+  position: absolute;
+  right: 18px;
+}
 .skills__bar{
   position: absolute;
   left: 0;
